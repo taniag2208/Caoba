@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "oficio": "CRAFT",
+    "obra": "WORK",
+    "autores": "STUDIO",
+    "conversacion": "CONVERSATION",
+    "lang": "ES"
+  },
+  "home": {
+    "kicker": "— EDITION 2026 / VOLUME 01",
+    "h1_start": "We design wood spaces that age",
+    "h1_highlight": "better",
+    "h1_end": "than they arrived.",
+    "cta": "START A PROJECT →",
+    "scroll": "SCROLL",
+    "manifiesto_kicker": "— PURPOSE",
+    "manifiesto_text": "Caoba does not manufacture furniture: it composes spaces. Each project begins with a piece of wood and ends with a place where a life unfolds better.",
+    "proyectos_kicker": "— 03 · SELECTED WORK",
+    "proyectos_link": "View all projects →",
+    "oficio_kicker": "— CRAFT",
+    "editorial_kicker": "— EDITORIAL · LATEST ENTRY",
+    "editorial_link": "Read →"
+  },
+  "servicios": {
+    "h1": "A studio that designs, builds and maintains.",
+    "subtitle": "We operate at the intersection of interior architecture, artisan cabinetry and technical maintenance of noble surfaces.",
+    "proceso_kicker": "— PROCESS · SEVEN STEPS · ONE GRAIN",
+    "garantia_text": "10-year guarantee on structure and finishes",
+    "cta": "SCHEDULE A VISIT →",
+    "cta_sub": "Starting a project takes between 12 and 24 weeks."
+  },
+  "proyectos": {
+    "kicker": "— 03 · WORK",
+    "filter_all": "ALL",
+    "filter_residencial": "RESIDENTIAL",
+    "filter_comercial": "COMMERCIAL",
+    "filter_restauracion": "RESTORATION"
+  },
+  "nosotros": {
+    "h1": "A deliberately small studio.",
+    "subtitle": "Quality is a decision of scale.",
+    "valores_kicker": "— VALUES · FOUR PILLARS",
+    "timeline_kicker": "— HISTORY",
+    "aliados_kicker": "— WORKSHOP PARTNERS",
+    "prensa_kicker": "— PRESS · MMXXVI"
+  },
+  "contacto": {
+    "h1": "Every project begins with a conversation.",
+    "subtitle": "Tell us about your space. We will tell you if we are the right studio.",
+    "cta": "START THE CONVERSATION →",
+    "disclaimer": "We respond within 48 business hours. Starting a project takes 12 to 24 weeks.",
+    "expectativas_kicker": "— PROCESS TIMELINE",
+    "estudio_kicker": "— STUDIO OPEN BY APPOINTMENT · MMXXVI"
+  },
+  "footer": {
+    "tagline": "NATURAL DESIGN",
+    "credit": "BOGOTÁ · MMXXVI"
+  }
+}

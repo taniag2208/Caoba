@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "oficio": "OFICIO",
+    "obra": "OBRA",
+    "autores": "AUTORES",
+    "conversacion": "CONVERSACIÓN",
+    "lang": "EN"
+  },
+  "home": {
+    "kicker": "— EDICIÓN 2026 / VOLUMEN 01",
+    "h1_start": "Diseñamos espacios en madera que envejecen",
+    "h1_highlight": "mejor",
+    "h1_end": "de lo que llegaron.",
+    "cta": "INICIAR PROYECTO →",
+    "scroll": "SCROLL",
+    "manifiesto_kicker": "— PROPÓSITO",
+    "manifiesto_text": "Caoba no fabrica muebles: compone espacios. Cada proyecto comienza con una pieza de madera y termina con un lugar donde una vida transcurre mejor.",
+    "proyectos_kicker": "— 03 · OBRA SELECCIONADA",
+    "proyectos_link": "Ver todos los proyectos →",
+    "oficio_kicker": "— OFICIO",
+    "editorial_kicker": "— EDITORIAL · ÚLTIMA ENTRADA",
+    "editorial_link": "Leer →"
+  },
+  "servicios": {
+    "h1": "Un estudio que diseña, fabrica y mantiene.",
+    "subtitle": "Operamos en la intersección entre la arquitectura interior, la ebanistería de autor y el mantenimiento técnico de superficies nobles.",
+    "proceso_kicker": "— PROCESO · SIETE PASOS · UNA VETA",
+    "garantia_text": "Garantía 10 años sobre estructura y acabados",
+    "cta": "AGENDAR VISITA →",
+    "cta_sub": "Iniciar un proyecto toma entre 12 y 24 semanas."
+  },
+  "proyectos": {
+    "kicker": "— 03 · OBRA",
+    "filter_all": "TODOS",
+    "filter_residencial": "RESIDENCIAL",
+    "filter_comercial": "COMERCIAL",
+    "filter_restauracion": "RESTAURACIÓN"
+  },
+  "nosotros": {
+    "h1": "Un estudio deliberadamente pequeño.",
+    "subtitle": "La calidad es una decisión de escala.",
+    "valores_kicker": "— VALORES · CUATRO PILARES",
+    "timeline_kicker": "— HISTORIA",
+    "aliados_kicker": "— ALIADOS DE TALLER",
+    "prensa_kicker": "— PRENSA · MMXXVI"
+  },
+  "contacto": {
+    "h1": "Cada proyecto empieza con una conversación.",
+    "subtitle": "Cuéntenos su espacio. Nosotros le contamos si somos el estudio indicado.",
+    "cta": "INICIAR CONVERSACIÓN →",
+    "disclaimer": "Respondemos en 48 horas hábiles. Iniciar un proyecto toma entre 12 y 24 semanas.",
+    "expectativas_kicker": "— TIEMPOS DE PROCESO",
+    "estudio_kicker": "— ESTUDIO ABIERTO CON CITA · MMXXVI"
+  },
+  "footer": {
+    "tagline": "DISEÑO NATURAL",
+    "credit": "BOGOTÁ · MMXXVI"
+  }
+}

@@ -1,26 +1,102 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --pergamino: #F2EBDB;
+  --lino: #E8DCC5;
+  --arena: #D9C8A8;
+  --nogal: #8B5A3C;
+  --caoba: #5C3424;
+  --espresso: #2A1A12;
+  --tinta: #120B07;
+  --oro: #B8924D;
+  --oro-claro: #C8A668;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-pergamino: var(--pergamino);
+  --color-lino: var(--lino);
+  --color-arena: var(--arena);
+  --color-nogal: var(--nogal);
+  --color-caoba: var(--caoba);
+  --color-espresso: var(--espresso);
+  --color-tinta: var(--tinta);
+  --color-oro: var(--oro);
+  --color-oro-claro: var(--oro-claro);
+  --font-cormorant: var(--font-cormorant);
+  --font-manrope: var(--font-manrope);
+  --font-jetbrains: var(--font-jetbrains);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  body {
+    background-color: var(--pergamino);
+    color: var(--tinta);
+    font-family: var(--font-manrope), sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3 {
+    font-family: var(--font-cormorant), serif;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  ::selection {
+    background-color: var(--oro);
+    color: var(--pergamino);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer utilities {
+  .font-cormorant { font-family: var(--font-cormorant), serif; }
+  .font-manrope { font-family: var(--font-manrope), sans-serif; }
+  .font-jetbrains { font-family: var(--font-jetbrains), monospace; }
+
+  .text-kicker {
+    font-family: var(--font-jetbrains), monospace;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.42em;
+    text-transform: uppercase;
+  }
+
+  .btn-outline-pergamino {
+    display: inline-block;
+    border: 1px solid var(--pergamino);
+    color: var(--pergamino);
+    padding: 0.75rem 2rem;
+    font-family: var(--font-jetbrains), monospace;
+    font-size: 11px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-decoration: none;
+  }
+
+  .btn-outline-pergamino:hover {
+    background-color: var(--pergamino);
+    color: var(--tinta);
+  }
+
+  .btn-outline-caoba {
+    display: inline-block;
+    border: 1px solid var(--caoba);
+    color: var(--caoba);
+    padding: 0.75rem 2rem;
+    font-family: var(--font-jetbrains), monospace;
+    font-size: 11px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-decoration: none;
+  }
+
+  .btn-outline-caoba:hover {
+    background-color: var(--caoba);
+    color: var(--pergamino);
+  }
 }
